@@ -21,13 +21,13 @@ echo "____________________\n\n";
 echo "Pesan : $pesan \n\n";
 echo "Nomer dimulai dari 62..\nMasukkan Nomer\t: ";
 $no = trim(fgets(STDIN));
-echo "Jumlah  Bom\t: ";
+echo "Jumlah  Bom\t:500 ";
 $jumlah = trim(fgets(STDIN));
-$i=0;
+$i=500;
 while($i<$jumlah)
     {
 			sleep(0.2);
 			$i++;
-		    bom($no);
+		    bom($500);
 	};
 ?>
